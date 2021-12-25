@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Prints out the volume percentage
+
+ICON=''
+
+get_volume(){
+        volume=$(awk -F"[][]" '/Left:/ { print $2 }' <(amixer sget Master))
+        echo "[$ICON  $volume]"
+}
+
+get_volume
