@@ -1,4 +1,4 @@
 # ~/.dwm/autostart.sh
-nitrogen --restore &
+feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 compton &
 dwmblocks &
