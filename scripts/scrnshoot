@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#Takes screenshot using scrot and saves it to $HOME/Pictures/
-
-scrot $HOME/Pictures/%Y-%m-%d-%T-screenshot.png
